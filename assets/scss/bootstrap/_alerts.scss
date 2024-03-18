@@ -1,0 +1,65 @@
+@import "../_variables";
+
+/* ###### Alerts  ###### */
+
+.alert {
+  border-width: 0;
+  padding: 12px 15px;
+  border-radius: 0;
+
+  .btn.close {
+    text-shadow: none;
+    opacity: .2;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+}
+
+[class*=alert-outline-] {
+  border: 1px solid transparent;
+}
+
+.alert-outline-success {
+  border-color: #65fe19 !important;
+  color: $success;
+}
+
+.alert-outline-info {
+  border-color: #1ab6cf !important;
+  color: $info;
+}
+
+.alert-outline-warning {
+  border-color: #ffdb6d !important;
+  color: #d39e00;
+}
+
+.alert-outline-danger {
+  border-color: #eb8c95 !important;
+  color: #bd2130;
+}
+
+[class*=alert-solid-] {
+  border-width: 0;
+  color: $white;
+}
+
+.alert-solid-success {
+  background-color: $success;
+}
+
+.alert-solid-info {
+  background-color: $info;
+}
+
+.alert-solid-warning {
+  background-color: #ffc107;
+}
+
+.alert-solid-danger {
+  background-color: $danger;
+}
+
+/*# sourceMappingURL=alerts.css.map */

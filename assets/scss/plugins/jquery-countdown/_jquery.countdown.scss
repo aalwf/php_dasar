@@ -1,0 +1,93 @@
+/* jQuery Countdown styles 2.0.0. */
+
+#launch_date {
+	margin: 0px auto 20px auto;
+  }
+  
+  .countdown-rtl {
+	direction: rtl;
+  }
+  
+  .countdown-holding span {
+	color: #888;
+  }
+  
+  .countdown-row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+  }
+  
+  .countdown {
+	li {
+	  display: inline-block;
+	  font-size: 1rem;
+	  font-weight: bold;
+	  width: 90px;
+	  height: 90px;
+	  padding: 10px;
+	  text-align: center;
+	  margin: 0 auto;
+	  position: relative;
+	  overflow: hidden;
+	  z-index: 10;
+	  box-shadow: -6px 5px 8px 0 rgba(7, 16, 31, 0.1);
+	  color: $white;
+	  border-radius: 5px;
+  
+	  &:first-child {
+		background: url(../images/media/12.jpg);
+		background-size: cover;
+	  }
+  
+	  &:nth-child(2) {
+		background: url(../images/media/13.jpg);
+		background-size: cover;
+	  }
+  
+	  &:nth-child(3) {
+		background: url(../images/media/14.jpg);
+		background-size: cover;
+	  }
+  
+	  &:last-child {
+		background: url(../images/media/15.jpg);
+		background-size: cover;
+	  }
+  
+	  &:before {
+		content: '';
+		position: absolute;
+		background: rgba(33, 99, 231, 0.75);
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		display: block;
+		z-index: -1;
+	  }
+	}
+  
+	.time {
+	  font-size: 13px;
+	  padding-top: 2px;
+	  font-weight: 300;
+	}
+  }
+  
+  @media (max-width: 991px) {
+	.countdown li {
+	  margin: 20px 10px 10px 10px;
+	}
+  
+	.is-countdown {
+	  margin-top: 20px;
+	}
+  }
+  
+  @media (min-width: 992px) {
+	.countdown li {
+	  margin: 30px 10px 5px 10px;
+	}
+  }

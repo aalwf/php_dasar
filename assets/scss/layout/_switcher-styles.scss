@@ -1,0 +1,173 @@
+
+
+/***********Boxed Styles****************/
+@media (min-width: 1400px) {
+  body.layout-boxed {
+    &.rtl.app.sidebar-mini .side-header {
+    right: 0;
+    left: 0;
+   }
+   &.rtl .app-sidebar {
+    right: auto !important;
+    left: inherit;
+    }
+    &.rtl .main-header form[role=search].active input {
+      right: 258px !important;
+      left: inherit;
+    }
+
+    background: $background;
+    .page {
+      width: 1400px;
+      margin: 0 auto;
+      background: $background;
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-pack: center;
+      justify-content: center;
+      min-height: 100vh;
+      box-shadow: $black-3 0px 5px 0px 0px, $black-3 0px 5px 25px 0px;
+    }
+    .horizontal-main {
+      z-index: 2;
+    }
+    .main-content{
+      &.app-content, &.horizontal-content {
+        z-index: 1;
+      }
+    }
+    &.horizontal .hor-header .container,
+    &.horizontal .horizontal-main .container,
+    &.horizontal .main-content.horizontal-content .container {
+      max-width: 95% !important;
+    }
+    .sticky-pin .horizontal-main {
+      max-width: 1400px !important; 
+      margin: 0;
+    }
+    .main-header {
+      max-width: 1400px;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      top: 0;
+    }
+    .main-content .container,
+    .main-header > .container,
+    .horizontal-mainwrapper.container {
+      padding-right: 0.75rem;
+      padding-left: 0.75rem;
+    }
+    .horizontalMenu > .horizontalMenu-list > li > a {
+      padding: 15px 11px 15px 11px;
+    }
+    .page.bg-primary-transparent,
+    .main-error-wrapper.page {
+      background: $primary-03 !important;
+    }
+    .app-sidebar {
+      left: auto !important;
+    }
+    .main-content-left-chat .main-nav-line-chat .nav-link + .nav-link {
+      margin-left: 0;
+    }
+    .main-nav-line-chat {
+      padding: 0 17px;
+    }
+    .app-sidebar .main-sidebar-header {
+      left: auto;
+      right: auto;
+    }
+      .main-header form[role=search].active input {
+        left: 258px !important;
+        width: 1400px;
+    }
+    &.dark-theme {
+      background: $dark-body !important;
+      .page {
+        background: $dark-body;
+        box-shadow: $white-1 0px 5px 0px 0px, $white-1 0px 5px 25px 0px;
+      }
+      .page.bg-primary-transparent,
+      .main-error-wrapper.page {
+        background: $dark-body !important;
+      }
+    }
+    &.horizontal .main-sidemenu .slide-left, &.horizontal .main-sidemenu .slide-right{
+      top: 7px;
+      padding: 5px;
+    }
+  }
+}
+/***********Boxed Styles****************/
+
+/***********Scroll-layout Styles****************/
+
+/*--- Scrollabel-header ----*/
+@media (max-width: 991px) {
+  .scrollable-layout .responsive-navbar.navbar {
+    .navbar-collapse {
+      position: absolute !important;
+    }
+
+    position: inherit !important;
+  }
+}
+@media (min-width: 992px) {
+  .horizontal.scrollable-layout .app-sidebar {
+    position: relative;
+    max-width: 100% !important;
+  }
+
+  .horizontal.scrollable-layout .main-header {
+    position: relative;
+    // border-bottom: 0;
+    max-width: 100% !important;
+  }
+}
+.scrollable-layout {
+  .main-header.side-header {
+    position: absolute !important;
+    max-width: 100% !important;
+  }
+
+  .app-sidebar,
+  .main-sidebar-header {
+    position: absolute;
+  }
+
+  .page {
+    position: relative;
+  }
+
+  // .sticky.sticky-pin {
+  //   position: inherit !important;
+  // }
+}
+
+/***********Scroll-layout Styles****************/
+
+/***********Horizontal Styles****************/
+@media (min-width: 992px) {
+  .centerlogo-horizontal {
+    &.horizontal {
+      .hor-header {
+        .main-header-left {
+          .responsive-logo {
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            text-align: center;
+            top: 17px;
+          }
+        }
+      }
+    }
+  }
+}
+/***********Horizontal Styles****************/

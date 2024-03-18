@@ -1,0 +1,76 @@
+
+@import "../_variables";
+/* ###### 6.2 Footer  ###### */
+
+.main-footer {
+	background-color: $white;
+	border-top: 1px solid $gray-200;
+	margin-top: auto;
+  }
+  
+  @media (min-width: 992px) {
+	.main-footer {
+	  display: block;
+	}
+  
+	.sticky-pin {
+	  top: 0;
+	  width: 100%;
+	  z-index: 99;
+	}
+  
+	.sticky {
+	  width: 100%;
+	}
+  }
+  
+  .sticky-pin {
+	.horizontalMenucontainer .main-header.hor-header {
+	  background: linear-gradient(45deg, #f33057, $primary);
+	}
+  
+	&.main-header {
+	  background: linear-gradient(45deg, #c2488d, $primary);
+	}
+  }
+  
+  
+  .main-footer {
+	.container {
+	  font-size: 12px;
+	  padding: 38px 20px 0;
+	  align-items: center;
+	  justify-content: space-between;
+	  color: $secondary;
+	  margin: 0 auto;
+	  text-align: center;
+	  justify-content: center;
+	  line-height: 3.7;
+	}
+  
+	.container-fluid {
+	  font-size: 12px;
+	  padding: 38px 20px 0;
+	  align-items: center;
+	  justify-content: space-between;
+	  color: $secondary;
+	  margin: 0 auto;
+	  text-align: center;
+	  justify-content: center;
+	  line-height: 3.7;
+	  padding-left: 20px;
+	  padding-right: 20px;
+	}
+  }
+  
+  @media (min-width: 992px) {
+	.main-footer .container {
+	  padding: 10px 0 0;
+	}
+  }
+  
+  .main-footer-app {
+	.container, .container-fluid {
+	  border-top-width: 0;
+	}
+  }

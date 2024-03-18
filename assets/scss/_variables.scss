@@ -1,0 +1,106 @@
+$background: #e9e7f7;
+$default-color:#031b4e;
+$color:#282f53;
+$muted:#7987a1;
+
+/*Color variables*/
+$primary:var(--primary-bg-color);
+$primary-hover:var(--primary-bg-hover);
+$primary-border:var(--primary-bg-border);
+$primary-005: var(--primary005);
+$primary-01: var(--primary01);
+$primary-02: var(--primary02);
+$primary-03: var(--primary03);
+$primary-05: var(--primary04);
+$primary-05: var(--primary05);
+$primary-06: var(--primary06);
+$primary-07: var(--primary07);
+$primary-08: var(--primary08);
+$primary-09: var(--primary09);
+$secondary:#7987a1;
+$pink:#f10075;
+$teal:#00cccc;
+$purple:#673ab7;
+$success:#0ba360;
+$warning:#e8b210 ;
+$danger:#f53c5b;
+$info:#17a2b8;
+$orange:#fd7e14;
+$dark:#212022;
+$indigo:#b057bf;
+$white:#fff;
+$black:#000;
+
+/*gradient variables*/
+$primary-gradient:linear-gradient(45deg,$primary,$primary-06);
+$pink-gradient:linear-gradient(45deg, #f10075 0%, #fd5d93 74%);
+$teal-gradient:linear-gradient(45deg, #00cccc 0%, #6aefef 100%);
+$success-gradient:linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+$warning-gradient:linear-gradient(45deg, #ff5858 0%, #f09819 100%);
+$danger-gradient:linear-gradient(45deg,#f53c5b,#fb768c);
+$info-gradient:linear-gradient(45deg, #17a2b8 0%, #4dc8dc 74%);
+$orange-gradient:linear-gradient(45deg,$primary,$primary-06);
+$purple-gradient:linear-gradient(45deg, #7f53ac 0%, #647dee 74%);
+$secondary-gradient:linear-gradient(45deg, #7987a1 0%, #96a7c7 74%);
+
+/*border variables*/
+$border:#ebecf1;
+
+
+/*gray variables*/
+$gray-100: #f0eeff;
+$gray-200:#dedcfb;
+$gray-300:#bbb8e2;
+$gray-400:#aba7d0;
+$gray-500:#9c96c1;
+$gray-600:#8d87b3;
+$gray-700:#817ba7;
+$gray-800:#746d94;
+$gray-900:#383858;
+
+/*white variables*/
+$white-1:rgba(255, 255, 255, 0.1);
+$white-2:rgba(255, 255, 255, 0.2);
+$white-3:rgba(255, 255, 255, 0.3);
+$white-4 :rgba(255, 255, 255, 0.4);
+$white-5 :rgba(255, 255, 255, 0.5);
+$white-6 :rgba(255, 255, 255, 0.6);
+$white-7 :rgba(255, 255, 255, 0.7);
+$white-8 :rgba(255, 255, 255, 0.8);
+$white-9 :rgba(255, 255, 255, 0.9);
+$white-05:rgba(255, 255, 255, 0.05);
+$white-08:rgba(255, 255, 255, 0.08);
+$white-75:rgba(255, 255, 255, 0.075);
+
+/*black variables*/
+$black-1:rgba(0, 0, 0, 0.1);
+$black-2:rgba(0, 0, 0, 0.2);
+$black-3:rgba(0, 0, 0, 0.3);
+$black-4:rgba(0, 0, 0, 0.4);
+$black-5:rgba(0, 0, 0, 0.5);
+$black-6:rgba(0, 0, 0, 0.6);
+$black-7:rgba(0, 0, 0, 0.7);
+$black-8:rgba(0, 0, 0, 0.8);
+$black-9:rgba(0, 0, 0, 0.9);
+$black-05:rgba(0, 0, 0, 0.05);
+
+/*shadow variables*/
+$primary-shadow:0 7px 30px rgba(128, 116, 252, 0.2);
+$danger-shadow:0 7px 30px rgba(250, 106, 130, 0.2);
+$success-shadow:0 7px 30px rgba(11, 163, 96, 0.2);
+$warning-shadow:0 7px 30px rgba(241, 159, 93, 0.2);
+
+$dark-theme:var(--dark-theme);
+$dark-theme2:rgba(0, 0, 0, 0.2);
+$dark-body:var(--dark-body) ;
+$dark-color:#dde3ea;
+$dark-border:rgb(222, 228, 236, 0.07);
+$dark-shadow:rgb(255, 255, 255, 0.03);
+$dark-hover:rgba(0, 0, 0, 0.2);
+$dark-shadow: rgba(0, 0, 0, 0.15);
+$dark-card-shadow: 0 10px 15px rgba(15, 17, 29, 0.9);
+
+
+$color-1:rgba(255,255,255,0.7);
+$shadow:rgba(0,0,0,0.1);
+$primary-gradient: linear-gradient(45deg, var(--primary-bg-color), #8e79fd);

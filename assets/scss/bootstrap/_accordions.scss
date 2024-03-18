@@ -1,0 +1,224 @@
+
+@import "../_variables";
+/* ###### 3.1 Accordion ###### */
+
+.accordion {
+	.card {
+	  border-width: 0;
+  
+	  + .card {
+		margin-top: 1px;
+	  }
+	}
+  
+	.card-header {
+	  padding: 0;
+	  background-color: transparent;
+	  font-weight: 500;
+  
+	  a {
+		display: block;
+		padding: 14px 20px;
+		color: #4f4b6b;
+		position: relative;
+		font-weight: 500;
+		font-size: 14px;
+		background-color:#edecfc;
+		border-bottom: 1px solid #e9e7f9;
+  
+		&:hover, &:focus {
+		  color: $gray-900;
+		}
+  
+		&.collapsed {
+		  color: #4f4b6b;
+		  background-color: #edecfc;
+		  border-bottom-color: transparent;
+  
+		  &:hover, &:focus {
+			color: $gray-900;
+			background-color: #edecfc;
+		  }
+		}
+	  }
+	}
+  
+	.card-body {
+	  padding: 20px 20px 20px;
+	  background-color:$gray-100;
+	  transition: none;
+	}
+  }
+  
+  .accordion-indigo {
+	.card {
+	  border-color: $primary;
+	}
+  
+	.card-header a {
+	  color: $primary;
+  
+	  &:hover, &:focus {
+		color: $primary;
+	  }
+  
+	  &.collapsed {
+		background-color: $primary;
+		color: $white-8;
+		font-weight: 500;
+		letter-spacing: -.1px;
+  
+		&:hover, &:focus {
+		  background-color: #452efa;
+		  color: $white;
+		}
+	  }
+	}
+  }
+  
+  .accordion-blue {
+	.card {
+	  border-color: $primary;
+	}
+  
+	.card-header a {
+	  color: $primary;
+  
+	  &:hover, &:focus {
+		color: $primary;
+	  }
+  
+	  &.collapsed {
+		background-color: $primary;
+		color: $white-8;
+		font-weight: 500;
+		letter-spacing: -.1px;
+  
+		&:hover, &:focus {
+		  background-color: #1a53ff;
+		  color: $white;
+		}
+	  }
+	}
+  }
+  
+  .accordion-dark {
+	.card {
+	  border-color: $gray-900;
+	}
+  
+	.card-header a {
+	  color: $gray-900;
+  
+	  &:hover, &:focus {
+		color: $gray-900;
+	  }
+  
+	  &.collapsed {
+		background-color: $gray-900;
+		color: $white-8;
+		font-weight: 500;
+		letter-spacing: -.1px;
+  
+		&:hover, &:focus {
+		  background-color: #141c2b;
+		  color: $white;
+		}
+	  }
+	}
+  }
+  
+  .accordion-gray {
+	.card {
+	  border-color: $secondary;
+	}
+  
+	.card-header a {
+	  color: $secondary;
+  
+	  &:hover, &:focus {
+		color: $secondary;
+	  }
+  
+	  &.collapsed {
+		background-color: $secondary;
+		color: $white-8;
+		font-weight: 500;
+		letter-spacing: -.1px;
+  
+		&:hover, &:focus {
+		  background-color: #6a7a96;
+		  color: $white;
+		}
+	  }
+	}
+  }
+  
+  /* ############### CUSTOM ELEMENT STYLES ############### */
+  
+  .main-accordion {
+	.accordion-item {
+	  background-color:$gray-100;
+	  border: 1px solid #dee2ef;
+	  position: relative;
+	  transition: all 0.2s ease-in-out;
+  
+	  &:hover, &:focus {
+		cursor: pointer;
+		background-color: #f1f2f6;
+		border-color: #bcc4de;
+		z-index: 4;
+	  }
+  
+	  &.active {
+		background-color: $white;
+		z-index: 5;
+		border-color: #bcc4de;
+  
+		.accordion-title {
+		  color: $primary;
+		}
+  
+		.accordion-body {
+		  display: block;
+		}
+	  }
+  
+	  + .accordion-item {
+		margin-top: -1px;
+	  }
+	}
+  
+	.accordion-header {
+	  display: flex;
+	  align-items: center;
+	  padding: 15px 20px;
+	}
+  
+	.accordion-title {
+	  font-weight: 700;
+	  color: $default-color;
+	  margin: 0;
+	  transition: all 0.2s ease-in-out;
+	}
+  
+	.accordion-body {
+	  display: none;
+	  padding:  20px 20px;
+	}
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+	.main-accordion .accordion-item {
+	  transition: none;
+	}
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+	.main-accordion .accordion-title {
+	  transition: none;
+	}
+  }
+  .collapse:not(.show) {
+    display: none ;
+ }

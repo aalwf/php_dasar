@@ -1,0 +1,370 @@
+@import "../_variables";
+
+/***** DEFAULT STYLE WIZARD *****/
+.file-manager-icon {
+    width: 30px;
+    height: 30px;
+}
+.file-manger-icon img {
+    width: 70px;
+    height: 70px;
+}
+.file-list{
+    margin-top: -20px ;
+    color: $white-5 ;
+}
+.file-manger-icon1 img {
+    width: 70px;
+    height: 70px;
+}
+.card .card {
+    box-shadow: none !important;
+}
+
+.tag.tag-attachments {
+    padding: 4px 15px 2px 15px;
+    font-size: 13px;
+    background-color: $white;
+    border: 1px solid #e8e8f7;
+  }
+  
+  .tag.tag-attachments-lg {
+    padding: 5px 17px 3px 17px;
+    font-size: 17px;
+    background-color: $white;
+    border: 1px solid #e8e8f7;
+  }
+  
+  .tag.tag-attachments-sm {
+    padding: 3px 10px 1px 10px;
+    font-size: 13px;
+    background-color: $white;
+    border: 1px solid #e8e8f7;
+  }
+  
+  .tags .tag-files span {
+    position: absolute;
+    top: 21px;
+    margin-right: 104px;
+    left: 51px;
+    font-size: 12px;
+    color: #a5b1d9;
+  }
+  
+  .attached-file-grid6 .icons li a {
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    background: $white;
+  }
+  
+  .attached-file-grid6 .icons li a {
+    color: $primary;
+    border: 1px solid $white;
+  }
+  .attached-file-grid6 .icons {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    bottom: -3px;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+    display: block;
+    margin: 0 auto;
+    background-image: linear-gradient(to top, $black-5, transparent 100%);
+  }
+  
+  .image-pic {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0px;
+    color: $white;
+    font-size: 17px;
+    background-image: linear-gradient(to bottom, $black-5, transparent 100%);
+    padding: 20px 0px 20px 20px;
+    border-radius: 5px;
+  }
+  
+  .file-image-1 {
+    width: 100px;
+    height: 100px;
+    display: inline-table;
+    margin: 20px;
+    position: relative;
+    border: 1px solid #ededf5;
+    border-radius: 5px;
+  
+    .product-image img {
+      width: 100px;
+      height: 100px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+  
+  .file-image-md .product-image img {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .file-image-lg .product-image img {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .file-image-1 {
+    .icons {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      opacity: 0;
+      left: 7px;
+      top: 6px;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
+      transition: all 0.5s ease 0s;
+      text-align: right;
+    }
+  
+    &:hover .icons {
+      opacity: 1;
+      bottom: 33px;
+    }
+  
+    .icons li a {
+      font-size: 12px;
+      line-height: 28px;
+      text-align: center;
+      height: 25px;
+      width: 25px;
+      margin: 4px 1px;
+      padding: 0;
+      border-radius: 50px;
+      display: block;
+      position: relative;
+      transition: all 0.3s ease-in-out;
+      color: $white;
+    }
+  
+    .file-name-1 {
+      position: absolute;
+      right: 0;
+      left: 0;
+      font-size: 12px;
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+  }
+  
+  .file-image-md {
+    width: 150px;
+    height: 150px;
+  
+    .icons li a {
+      font-size: 13px;
+      line-height: 30px;
+      height: 28px;
+      width: 28px;
+    }
+  }
+  
+  .file-image-lg {
+    width: 200px;
+    height: 200px;
+  
+    .icons li a {
+      font-size: 15px;
+      line-height: 35px;
+      height: 35px;
+      width: 35px;
+    }
+  }
+  
+.tag-outline-primary {
+    color: $primary !important;
+    border-color: $primary !important;
+  }
+  
+  .tag-outline-secondary {
+    color: $secondary !important;
+    border-color: $secondary !important;
+  }
+  
+  .tag-outline-success {
+    color: $success !important;
+    border-color: $success !important;
+  }
+  
+  .tag-outline-warning {
+    color: $warning !important;
+    border-color: $warning !important;
+  }
+  
+  .tag-outline-info {
+    color: $info !important;
+    border-color: $info !important;
+  }
+  
+  .tag-outline-danger {
+    color: $danger !important;
+    border-color: $danger !important;
+  }
+  
+  .tag-outline-pink {
+    color: $pink !important;
+    border-color: $pink !important;
+  }
+  .pro-img-box {
+    position: relative;
+}
+.attached-file-image .pic-1 {
+    transition: all 0.3s ease;
+}
+.attached-file-grid6 .image-icons {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    bottom: -3px;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+    display: block;
+    margin: 0 auto;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent 100%);
+}
+.attached-file-grid6 .image-icons li {
+    margin: 0 auto;
+    display: inline-block;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+.attached-file-grid6 .image-icons li .btn {
+    color: $primary;
+    border: 1px solid #fff;
+}
+.attached-file-grid6 .image-icons li .btn {
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    background: #fff;
+    padding: 5px 10px;
+    min-width: inherit;
+}
+.attached-file-grid6:hover .image-icons {
+    opacity: 1;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.attached-file-grid6:hover .image-icons li {
+    opacity: 1;
+}
+.file-image-btn {
+    width: 100px;
+    height: 100px;
+    display: inline-table;
+    margin: 4px;
+    position: relative;
+    border: 1px solid #e9edf4;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.file-image-btn .product-image img {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.file-image-btn .image-icons {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    right: 7px;
+    top: 0px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+    text-align: right;
+}
+.file-image-btn .image-icons .btn {
+    line-height: 26px;
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    margin: 4px 1px;
+    padding: 0;
+    border-radius: 50px;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    min-width: inherit;
+}
+.file-image-btn .image-icons .btn i {
+    font-size: 12px;
+}
+.file-image-btn:hover .image-icons {
+    opacity: 1;
+    bottom: 33px;
+}
+.file-image-md {
+    width: 150px;
+    height: 150px;
+}
+.file-image-lg {
+    width: 200px;
+    height: 200px;
+}
+.file-image-btn.file-image-md .image-icons .btn {
+    height: 30px;
+    width: 30px;
+}
+.file-image-btn.file-image-lg .image-icons .btn {
+    height: 33px;
+    width: 33px;
+}
+.file-image-btn .file-name-1 {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -22px;
+    color: #524d4d;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+}

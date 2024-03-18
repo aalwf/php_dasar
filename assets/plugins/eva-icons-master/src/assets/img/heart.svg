@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="17px" viewBox="0 0 22 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11,17 C10.734,17 10.48,16.895 10.292,16.706 L2.525,8.926 C0.489,6.886 0.489,3.567 2.525,1.527 C3.508,0.543 4.821,0 6.22,0 C7.619,0 8.932,0.543 9.915,1.527 L11,2.614 L12.084,1.528 C13.068,0.543 14.381,0 15.78,0 C17.179,0 18.492,0.543 19.475,1.527 C21.511,3.567 21.511,6.886 19.476,8.926 L11.708,16.707 C11.52,16.895 11.266,17 11,17" id="path-1"></path>
+        <path d="M6.2197,2 C5.3557,2 4.5457,2.334 3.9397,2.941 C2.6817,4.201 2.6817,6.252 3.9407,7.514 L10.9997,14.585 L18.0597,7.514 C19.3187,6.252 19.3187,4.201 18.0597,2.941 C16.8477,1.726 14.7117,1.728 13.4997,2.941 L11.7077,4.736 C11.3317,5.113 10.6677,5.113 10.2917,4.736 L8.4997,2.94 C7.8937,2.334 7.0847,2 6.2197,2 M10.9997,17 C10.7347,17 10.4797,16.895 10.2927,16.706 L2.5247,8.926 C0.4887,6.886 0.4887,3.567 2.5247,1.527 C3.5087,0.543 4.8207,0 6.2197,0 C7.6187,0 8.9317,0.543 9.9147,1.527 L10.9997,2.614 L12.0847,1.528 C13.0687,0.543 14.3807,0 15.7807,0 C17.1787,0 18.4917,0.543 19.4747,1.527 C21.5117,3.567 21.5117,6.886 19.4757,8.926 L11.7077,16.707 C11.5197,16.895 11.2657,17 10.9997,17" id="path-3"></path>
+    </defs>
+    <g id="Eva-Icons-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1145.000000, -1127.000000)">
+            <g id="Group-2" transform="translate(1144.000000, 1123.000000)">
+                <rect id="Rectangle" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="24" height="24" rx="2"></rect>
+                <g id="Group" transform="translate(0.000000, 4.000000)">
+                    <g id="Icon/Fill/heart" transform="translate(2.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#FFA8B4" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Icon/Outline/heart">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#FF3D71" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

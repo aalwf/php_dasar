@@ -1,0 +1,26 @@
+@import "../_variables";
+
+/* ###### 3.13 Progress ###### */
+
+.progress {
+	height: auto;
+	border-radius: 0;
+  }
+  
+  .progress-bar {
+	border-radius: 0;
+	height: 10px;
+	font-size: 11px;
+  }
+  
+  .progress-bar-xs {
+	height: 5px;
+  }
+  
+  .progress-bar-sm {
+	height: 8px;
+  }
+  
+  .progress-bar-lg {
+	height: 15px;
+  }

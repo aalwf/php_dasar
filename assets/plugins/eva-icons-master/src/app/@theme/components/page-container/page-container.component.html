@@ -1,0 +1,63 @@
+<div class="title">
+  <i class="heart"></i>
+  <span class="version mobile">v{{currentVersion}}</span>
+  <h1>
+    Eva icons
+    <span class="version desktop">v{{currentVersion}}</span>
+  </h1>
+</div>
+<p class="description">
+  Eva Icons is a pack of more than <span>480</span> beautifully crafted Open Source icons for common actions and items.<br/>
+  Download our set on the desktop to use them in your digital products for Web, iOS and Android.<br/>
+  Compatible with <a class="eva-ds-link" href="https://eva.design?utm_source=eva_documentation&utm_medium=hero">Eva Design System</a>.
+</p>
+
+<div class="search" [class.search-focus]="isInputFocus">
+  <i [innerHTML]="'search-outline' | eva: { width: 24, height: 24 }"></i>
+  <input class="search-input"
+         (focus)="handleFocusInput()"
+         (blur)="handleBlurInput()"
+         [attr.placeholder]="placeholder"
+         #searchInput
+         autocomplete="off"
+         tabindex="-1"/>
+</div>
+
+<div class="actions">
+  <section class="left-actions">
+    <eva-type-switcher (changeIconsType)="changeIconsType($event)"
+                       [isMobileView]="isMobileMode"
+                       [iconsType]="iconsType">
+    </eva-type-switcher>
+  </section>
+  <section class="right-action">
+    <span class="animation-title">Animation:</span>
+    <eva-animation-switcher (changeAnimation)="changeAnimation($event)"
+                            [isMobileView]="isMobileMode"
+                            [animation]="animation">
+    </eva-animation-switcher>
+  </section>
+</div>
+
+<div class="icons" #iconsBlock>
+  <eva-icon-list *ngIf="!noSearchResults"
+                 [icons]="icons"
+                 [animationType]="animation"
+                 [isMobileView]="isMobileMode"
+                 (clickIcon)="clickIcon($event)">
+  </eva-icon-list>
+
+  <div *ngIf="noSearchResults"
+       class="info-message">
+    {{ message }}
+  </div>
+
+  <div *ngIf="isLoading"
+       class="spinner-container"
+       [nbSpinner]="isLoading"
+       nbSpinnerMessage=""
+       nbSpinnerStatus="primary"
+       nbSpinnerSize="xxlarge">
+  </div>
+</div>
+

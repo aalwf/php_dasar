@@ -1,0 +1,20 @@
+@import "../_variables";
+
+/****** EQUAL COLUMN WIDTH STEP INDICATOR *****/
+
+.step-equal-width > .steps > ul {
+	display: flex;
+  
+	> li {
+	  flex: 1;
+	  width: auto;
+	  float: none;
+	  flex: 1;
+	  width: auto;
+	  float: none;
+	}
+  
+	display: flex;
+  }
+  
+  /****** EQUAL COLUMN WIDTH STEP INDICATOR *****/

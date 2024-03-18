@@ -1,0 +1,26 @@
+<div class="close-icon"
+     (click)="closeDialog()">
+  <i [innerHTML]="'close' | eva: { width: 36, height: 36, animationType: 'pulse' }"></i>
+</div>
+
+<nb-card>
+  <nb-card-body>
+    <div class="icon-container">
+      <i [innerHTML]="selectedIcon | eva: { width: 64, height: 64 }"></i>
+      <div class="icon-name">{{ selectedIcon }}</div>
+    </div>
+    <div class="download-controls">
+      <div *ngFor="let item of downloadControls"
+           (click)="clickOnDownloadIcon(item)"
+           [class.active]="item.format === selectedFormat"
+      >
+        <a href="{{ item.href }}" download>
+          <div class="download-control"
+               [ngClass]="item.format">
+          </div>
+          <div class="name">{{ item.title }}</div>
+        </a>
+      </div>
+    </div>
+  </nb-card-body>
+</nb-card>

@@ -1,0 +1,76 @@
+@import "../_variables";
+
+/*---Count-down---*/
+
+#count-down {
+        width: auto;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+  
+	.clock-presenter {
+	  height: 80px;
+	  padding: 0px;
+	  text-align: center;
+  
+	  .digit {
+		margin-top: 5px;
+		font-size: 1.5rem;
+		color: $white;
+		line-height: 60px;
+		height: 60px;
+		display: inline-block;
+		overflow: hidden;
+		text-align: center;
+		position: relative;
+		cursor: default;
+		font-weight: 600;
+		border-radius: 3px;
+	  }
+  
+	  width: 70px;
+	  height: 70px;
+	  float: left;
+	  margin: 0 20px 0 0 !important;
+	  background: url(../img/photos/19.jpg);
+	  border-radius: 3px;
+	  background-size: cover;
+	  position: relative;
+  
+	  &:before {
+		content: '';
+		position: absolute;
+		background: linear-gradient(45deg, rgba(245, 66, 102, 0.8), rgba(56, 88, 249, 0.8));
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		display: block;
+		border-radius: 3px;
+	  }
+  
+	  .note {
+		position: relative;
+		margin-bottom: 0px;
+		cursor: default;
+		font-size: 16px;
+		opacity: 0.7;
+	  }
+	}
+  }
+  
+  @media (max-width: 568px) {
+	#count-down .clock-presenter {
+	  float: none !important;
+	  margin-bottom: 45px !important;
+	}
+  
+	.example {
+	  border: 1px solid #e1e6f1;
+	  font-size: .876rem;
+	}
+  }
+  
+  #count-down  .clock-presenter{
+  	margin: 0 auto;
+}

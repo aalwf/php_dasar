@@ -1,0 +1,364 @@
+.light-header {
+  .main-header.side-header.sticky.nav.nav-item.fixed-header.visible-title.sticky-pin {
+    background: $white;
+  }
+  .main-header-center .btn:hover {
+    color: #b4bdce;
+  }
+  .main-header {
+    background: $white !important;
+    border-bottom-color: $border !important;
+    box-shadow: none;
+  }
+  .header-icons {
+      fill:  $color;
+  }
+  .navbar-form .input-group-btn .btn i {
+    color: $color;
+  }
+  .close-toggle {
+    color: #a8b1c7 !important;
+  }
+  .layout-setting .header-icon-svgs,
+  .resp-btn .header-icon-svgs,
+  .demo-icon .header-icon-svgs {
+    fill: #5b6e88;
+  }
+  .header-icon-svgs {
+    color: #5b6e88;
+  }
+  .header-setting-icon .nav-link i{
+    color: $color;
+  }
+  .main-header-message .nav-link, .main-header-notification .nav-link, .nav-item.full-screen .nav-link, .header-setting-icon .nav-link, .main-layout .dark-layout, .main-layout .light-layout,.main-header .input-group-btn .btn{
+    border: 1px solid $black-7 !important;
+  }
+  .main-header-message .nav-link i, .main-header-notification .nav-link i, .nav-item.full-screen .nav-link i, .main-layout .dark-layout i, .main-layout .light-layout i,.navbar-form .input-group-btn .btn i{
+    color: $color !important;
+  }
+  @media (min-width: 992px) {
+    .main-header-left .form-control {
+      background: $background !important;
+      border-color: $border;
+    }
+    .hor-header.sticky-pin {
+      &.main-header {
+        background: transparent;
+        box-shadow: none;
+        border-bottom: 0 !important;
+      }
+    }
+  }
+  .form-control::placeholder {
+    color: $default-color !important;
+  }
+  @media (min-width: 992px) {
+    &.horizontal .hor-header .logo-1 {
+      display: none !important;
+    }
+    &.horizontal .hor-header .logo-11 {
+      display: block !important;
+    }
+    .horizontal .app-sidebar {
+      border-top-color: $border;
+    }
+  }
+  .form-control {
+    color: $default-color;
+  }
+  @media (max-width: 991px) {
+    .responsive-logo .header-logo .logo-1 {
+      display: none;
+    }
+    .responsive-logo .header-logo .logo-11 {
+      display: block;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      text-align: center;
+      position: absolute;
+      top: 14px;
+    }
+    .responsive-navbar.navbar .navbar-collapse {
+      background: $white !important;
+      border-bottom-color: $border;
+      border-top-color: $border;
+    }
+  }
+  .navbar-toggler-icon {
+    color: #5b6e88;
+  }
+  @media (min-width: 992px) {
+    .main-header-left .btn {
+      color: $color !important;
+    }
+    .main-header.hor-header {
+      border-bottom: 1px solid $black-1 !important;
+    }
+  }
+}
+
+.color-header {
+  .main-header.side-header.sticky.nav.nav-item.fixed-header.visible-title.sticky-pin {
+    background: $primary;
+  }
+  .main-header-center .btn:hover {
+    color: $white;
+  }
+  .main-header {
+    background: $primary !important;
+    border-bottom-color:$white-2 !important;
+    box-shadow: none;
+  }
+  .header-icon {
+    color: $white;
+  }
+  .close-toggle {
+    color: $white !important;
+  }
+  .layout-setting .header-icon-svgs,
+  .resp-btn .header-icon-svgs,
+  .demo-icon .header-icon-svgs {
+    fill: $white;
+  }
+  .header-icon-svgs {
+    color: $white;
+  }
+  @media (min-width: 992px) {
+    .main-header-left .form-control {
+      background: $white-3 !important;
+      border-color: $white-2;
+    }
+    .hor-header.sticky-pin {
+      &.main-header {
+        background: transparent;
+        box-shadow: none;
+        border-bottom: 0 !important;
+      }
+    }
+    .main-header.hor-header {
+      border-bottom: 1px solid $white-1 !important;
+    }
+  }
+
+  .form-control::placeholder {
+    color: $color-1 !important;
+  }
+  @media (min-width: 992px) {
+    .main-header-left .btn {
+      color: $color-1;
+    }
+  }
+  @media (min-width: 992px) {
+    &.horizontal .hor-header .logo-1 {
+      display: block !important;
+    }
+    &.horizontal .hor-header .logo-11 {
+      display: none !important;
+    }
+    .horizontal .app-sidebar {
+      border-top-color: $white-2;
+    }
+  }
+  .form-control {
+    color: $white;
+  }
+  @media (min-width: 576px) {
+    .main-header .dropdown-menu:after {
+      border-bottom-color: $white;
+    }
+  }
+  @media (max-width: 991px) {
+    .responsive-logo .header-logo .logo-1 {
+      display: block;
+    }
+    .responsive-navbar.navbar .navbar-collapse {
+      background: $primary !important;
+      border-bottom-color: $white-2;
+      border-top-color: $white-2;
+    }
+  }
+  .navbar-toggler-icon {
+    color: $white;
+  }
+  @media (min-width: 992px) {
+    .main-header-left .btn {
+      color: $white  !important;
+    }
+  }
+}
+
+.dark-header {
+  .main-header.side-header.sticky.nav.nav-item.fixed-header.visible-title.sticky-pin {
+    background: $dark-theme;
+  }
+  .main-header-center .btn:hover {
+    color: $dark-color;
+  }
+  .main-header {
+    background: $dark-theme !important;
+    border-bottom-color: $dark-border !important;
+    box-shadow: none;
+  }
+  .header-icon {
+    color: $dark-color;
+  }
+  .close-toggle {
+    color: $dark-color !important;
+  }
+  .layout-setting .header-icon-svgs,
+  .resp-btn .header-icon-svgs,
+  .demo-icon .header-icon-svgs {
+    fill: $dark-color;
+  }
+  .header-icon-svgs {
+    color: $dark-color;
+  }
+  @media (min-width: 992px) {
+    .main-header-left .form-control {
+      background: $dark-theme !important;
+      border-color: $dark-border;
+    }
+    .hor-header.sticky-pin {
+      &.main-header {
+        background: transparent;
+        box-shadow: none;
+        border-bottom: 0 !important;
+      }
+    }
+    .main-header.hor-header {
+      border-bottom: 1px solid $white-1 !important;
+    }
+  }
+
+  .form-control::placeholder {
+    color: $dark-color !important;
+  }
+  @media (min-width: 992px) {
+    .main-header-left .btn {
+      color: $dark-color;
+    }
+  }
+  @media (min-width: 992px) {
+    &.horizontal .hor-header .logo-1 {
+      display: block !important;
+    }
+    &.horizontal .hor-header .logo-11 {
+      display: none !important;
+    }
+    .horizontal .app-sidebar {
+      border-top-color: $dark-border;
+    }
+  }
+  .form-control {
+    color: $dark-color;
+  }
+  @media (max-width: 991px) {
+    .responsive-logo .header-logo .logo-1 {
+      display: block;
+    }
+    .responsive-navbar.navbar .navbar-collapse {
+      background: $dark-theme !important;
+      border-bottom-color: $dark-border;
+      border-top-color: $dark-border;
+    }
+  }
+  .navbar-toggler-icon {
+    color: $dark-color;
+  }
+  @media (min-width: 992px) {
+    .main-header-left .btn {
+      color: $white  !important;
+    }
+  }
+}
+
+.gradient-header {
+  .main-header.side-header.sticky.nav.nav-item.fixed-header.visible-title.sticky-pin {
+    background: $primary-gradient;
+  }
+  .main-header-center .btn:hover {
+    color: $white;
+  }
+  .main-header {
+    background: $primary-gradient !important;
+    border-bottom-color: $white-2 !important;
+    box-shadow: none;
+  }
+  .header-icon {
+    color: $white;
+  }
+  .close-toggle {
+    color: $white !important;
+  }
+  .layout-setting .header-icon-svgs,
+  .resp-btn .header-icon-svgs,
+  .demo-icon .header-icon-svgs {
+    fill: $white;
+  }
+  .header-icon-svgs {
+    color: $white;
+  }
+  @media (min-width: 992px) {
+    .main-header-left .form-control {
+      background: $white-3 !important;
+      border-color: $white-2;
+    }
+    .hor-header.sticky-pin {
+      &.main-header {
+        background: transparent;
+        box-shadow: none;
+        border-bottom: 0 !important;
+      }
+    }
+    .main-header.hor-header {
+      border-bottom: 1px solid $white-1 !important;
+    }
+  }
+
+  .form-control::placeholder {
+    color: $color-1 !important;
+  }
+  @media (min-width: 992px) {
+    .main-header-left .btn {
+      color: $color-1;
+    }
+  }
+  @media (min-width: 992px) {
+    &.horizontal .hor-header .logo-1 {
+      display: block !important;
+    }
+    &.horizontal .hor-header  .logo-11 {
+      display: none !important;
+    }
+    .horizontal .app-sidebar {
+      border-top-color: $white-2;
+    }
+  }
+  .form-control {
+    color: $white;
+  }
+  @media (min-width: 576px) {
+    .main-header .dropdown-menu:after {
+      border-bottom-color: $white;
+    }
+  }
+  @media (max-width: 991px) {
+    .responsive-logo .header-logo .logo-1 {
+      display: block;
+    }
+    .responsive-navbar.navbar .navbar-collapse {
+      background: $primary-gradient !important;
+      border-bottom-color: $white-2;
+      border-top-color: $white-2;
+    }
+  }
+  .navbar-toggler-icon {
+    color: $white;
+  }
+  @media (min-width: 992px) {
+    .main-header-left .btn {
+      color: $white  !important;
+    }
+  }
+}

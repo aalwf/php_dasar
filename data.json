@@ -1,0 +1,80 @@
+{
+  "syntax_dasar": {
+    "title": "Sintaks dasar",
+    "example": ["echo()", "print()", "print_r()", "var_dump()"],
+    "link": "syntax_dasar.php",
+    "color": "teal"
+  },
+  "type_data": {
+    "title": "Type data",
+    "example": [
+      "string",
+      "int/numerik",
+      "float",
+      "boolean",
+      "array",
+      "object",
+      "dll"
+    ],
+    "link": "type_data.php",
+    "color": "warning"
+  },
+  "operator": {
+    "title": "Operator",
+    "example": [
+      "Operator Aritmatika",
+      "Operator Penugasan",
+      "Operator Perbandingan",
+      "Operator Logika",
+      "Operator String",
+      "Operator Ternary"
+    ],
+    "link": "operator.php",
+    "color": "secondary"
+  },
+  "variable": {
+    "title": "Variable",
+    "example": [
+      "Pendeklarasian yang benar & salah",
+      "Inisialisasi variable",
+      "Penggunaan variable"
+    ],
+    "link": "variable.php",
+    "color": "purple"
+  },
+  "conditional": {
+    "title": "Conditional",
+    "example": ["if else", "switch case"],
+    "link": "conditional.php",
+    "color": "danger"
+  },
+  "looping": {
+    "title": "Looping",
+    "example": ["while", "do.. while", "for", "foreach"],
+    "link": "looping.php",
+    "color": "success"
+  },
+  "functions": {
+    "title": "Function",
+    "example": ["Membuat & Memanggil Function", "Membuat built-in Function"],
+    "link": "functions.php",
+    "color": "primary"
+  },
+  "array": {
+    "title": "Array",
+    "example": ["Array Numerik", "Associative", "Multidimensional"],
+    "link": "array.php",
+    "color": "success"
+  },
+  "object": {
+    "title": "Object",
+    "example": [
+      "Mendefinisikan",
+      "Inisialisasi",
+      "Membuat Object (Instansiasi)",
+      "Pemanggilan method"
+    ],
+    "link": "object.php",
+    "color": "warning"
+  }
+}
